@@ -15,7 +15,7 @@
 	if(isset($_GET['page'])){
 		$page = $_GET['page'];
 		if($page < 1 || $page > $count_page){
-			echo "Ошибка, данная страница не найдена";
+			echo "Ошибка, данная страница еще не найдена";
 			exit();
 		}
 	}
